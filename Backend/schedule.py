@@ -15,7 +15,7 @@ def generateSchedule(tasks,deadline):
     daysForEachTask = int(deadline/len(tasks))
 
     ## Doubt
-    sorted(tasks, key = lambda task : task.weight, reverse=True)
+    tasks = sorted(tasks, key = lambda task : task.weight, reverse=True)
     
 
     numTask = 0

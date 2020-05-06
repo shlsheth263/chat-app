@@ -1,0 +1,49 @@
+id,tokens,slots,intent
+1,hello,o ,intial_welcome
+2,hi there,o o,intial_welcome
+3,hey,o,intial_welcome
+4,hello there,o o,intial_welcome
+5,good morning,o o,intial_welcome
+6,good afternoon,o o,intial_welcome
+7,good evening,o o,intial_welcome
+8,my name is vinayak,o o o name,name
+9,my name is sahil,o o o name,name
+10,i am vinayak,o o name,name
+11,add ins ise to calendar,o task_name task_name o o,addTask
+12,i have to do chapter 3 tomorrow,o o o o task_name task_name task_deadline,addTask
+13,i have to do chapter 3,o o o o task_name task_name task_deadline,addTask
+14,i have to study chapter 1,o o o o task_name task_name task_deadline,addTask
+15,i have to learn chapter 2,o o o o task_name task_name ,addTask
+16,i have to learn module 2,o o o o task_name task_name ,addTask
+17,i have to learn module 3 tomorrow,o o o o task_name task_name task_deadline,addTask
+18,i have to study module 1 tomorrow,o o o o task_name task_name task_deadline,addTask
+19,create a schedule,o o o,createSchedule
+20,make a schedule for me,o o o o o,createSchedule
+21,create a schedule for me,o o o o o,createSchedule
+22,i want a schedule,o o o o,createSchedule
+23,show me my schedule ,o o o o,displaySchedule
+24,display my schedule,o o o,displaySchedule
+25,what does my schedule look like,o o o o o o,displaySchedule
+26,what is my schedule,o o o o,displaySchedule
+27,what is my schedule for the day,o o o o o o o,displaySchedule
+28,remove chapter 3 from my schedule,o task_name task_name o o o,removeTask
+29,remove chapter 2 from the schedule ,o task_name task_name o o o,removeTask
+30,remove module 1 from my schedule ,o task_name task_name o o o,removeTask
+31,remove module 1 from the schedule ,o task_name task_name o o o,removeTask
+32,remove module 2,o task_name task_name,removeTask
+33,remove chapter 1,o task_name task_name,removeTask
+34,remove lesson 1,o task_name task_name,removeTask
+35,i have ins exam tomorrow,o o exam o task_deadline,addExam
+36,got an ins exam on the 15th of this month,o o exam o o o task_deadline o o o,addExam
+37,have an ins exam on the 16th of this month,o o exam o o o task_deadline o o o,addExam
+38,add DS exam ,o exam o,addExam
+39,add DWM exam,o exam o,addExam
+40,add ML midsem exam,o exam o o,addExam
+41,remove DS exam ,o exam o,removeExam
+42,remove DWM exam,o exam o,removeExam
+43,remove ML midsem exam,o exam o o,removeExam
+44,delete DS exam ,o exam o,removeExam
+45,delete DWM exam,o exam o,removeExam
+46,delete ML midsem exam,o exam o o,removeExam
+47,i am 20 years old,o o age o o ,removeExam
+48,i am 15 years old ,o o age o o ,removeExam

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_chat_demo/const.dart';
+import './const.dart';
 import 'package:photo_view/photo_view.dart';
 
 class FullPhoto extends StatelessWidget {

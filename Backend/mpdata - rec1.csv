@@ -1,0 +1,6 @@
+input_id,user_input,fulfilment
+1,Create schedule,0.89
+2,give me schedule,0.73
+3,display my schedule,0.93
+4,create exam ins,0.78
+5,add module 1,0.79
